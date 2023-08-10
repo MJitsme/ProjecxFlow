@@ -1,0 +1,32 @@
+{
+   "name": "server",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "node src/index.js",
+      "server": "nodemon src/index.js",
+      "dev": "nodemon src/index.js"
+   },
+   "engines": {
+      "node": ">=14.20.1"
+    },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "firebase-admin": "^11.10.1",
+      "http-status-codes": "^2.2.0",
+      "jsonwebtoken": "^9.0.1",
+      "mongoose": "^7.4.1",
+      "multer": "^1.4.5-lts.1"
+   },
+   "devDependencies": {
+      "morgan": "^1.10.0",
+      "nodemon": "^3.0.1"
+   }
+}
