@@ -1,0 +1,243 @@
+html {
+	font-size:20%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+   max-width: 100%;
+   max-height: 100%;
+   height: auto;
+}
+.sign_up {
+  width: 100vw;
+  height: 100vh;
+ 
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.sign_up .login {
+	position: absolute;
+	width: 8%;
+	height: 6%;
+	left: 88%;
+	top: 3.5%;
+	z-index: 1;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	font-size: 1.2vw;
+	line-height: 2.4;
+	color: #ffffff;
+	background-color: #000000;
+	border-radius: 10px;
+
+}
+.sign_up .name{
+	position: absolute;
+	align-content: center;
+	width: 20%;
+	height: 7%;
+	left: 5%;
+	top: 35%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .sign_up .phno{
+	position: absolute;
+	align-content: center;
+	width: 20%;
+	height: 7%;
+	left: 5%;
+	top: 45%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .sign_up .email{
+	position: absolute;
+	align-content: center;
+	width: 20%;
+	height: 7%;
+	left: 5%;
+	top: 55%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .sign_up .clg{
+	position: absolute;
+	align-content: center;
+	width: 20%;
+	height: 7%;
+	left: 37%;
+	top: 45%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .sign_up .dept{
+	position: absolute;
+	align-content: center;
+	width: 20%;
+	height: 7%;
+	left: 37%;
+	top: 35%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  
+  .sign_up .fid{
+	position: absolute;
+	align-content: center;
+	width: 20%;
+	height: 7%;
+	left: 37%;
+	top: 55%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  
+  .sign_up .pwd{
+	position: absolute;
+	align-content: center;
+	width: 20%;
+	height: 7%;
+	left: 70%;
+	top: 35%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .sign_up .quest{
+	position: absolute;
+	align-content: center;
+	text-align: center;
+	width: 20%;
+	height: 7%;
+	left: 70%;
+	top: 45%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 36px;
+	/* background-color: #E2E2E2; */
+	border-radius: 10px;
+	color: #000000;
+  }
+  .sign_up .ans{
+	position: absolute;
+	align-content: center;
+	width: 20%;
+	height: 7%;
+	left: 70%;
+	top: 55%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .sign_up .title {
+    position: absolute;
+	width: 45%;
+	height: 20%;
+	align-content: center;
+	left: calc(55% - 30%);
+	top: 22%;
+    z-index: 1;
+	font-size: 4rem;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	color: #292929;
+  }
+  .sign_up .bgrect {
+	width: 100vw;
+	height: 15rem;
+	position: absolute;
+	top: 0rem;
+	background-color: rgba(154, 170, 255, 0.9900000095);
+}
+.sign_up .signup {
+	position: absolute;
+	width: 8%;
+	height: 6%;
+	left: 44%;
+	top: 75%;
+	z-index: 1;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	font-size: 1.2vw;
+	line-height: 1.15;
+	color: #000000;
+	background-color: #9babff;
+	border-radius: 10px;
+}

@@ -1,0 +1,260 @@
+html {
+	font-size: 40%;
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+  }
+  
+  .team_members {
+	width: 100vw;
+	height: 100vh;
+
+	overflow-x: hidden;
+	background-color: #ffffff;
+  }
+
+  .team_members .logo {
+	width: 6rem;  
+	height: 4rem;
+	position: absolute; 
+	left: 3rem;
+	top: 0.8rem;
+	z-index: 1;
+	scale: 60%;
+	scale: 50%;
+	background-size: 100% 120%;
+	background-position: 0rem;
+	background-image: url('../assets/logo.png');
+	object-fit: cover;
+	vertical-align: top;
+  }
+  .team_members .logout{
+	position: absolute;
+	width: 8%;
+	height: 6%;
+	left: 215rem;
+	top: 3.8rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.2vw;
+	line-height: 2.3;
+	color: #ffffff;
+	background-color: #1d1d1d;
+	border-radius: 10px;
+
+}
+.team_members .line {
+	width: 0.2rem;
+	height: 5rem;
+	position: absolute;
+	z-index: 1;
+	left: 15rem;
+	top: 4.5rem;
+	opacity: 45%;
+	background-color: #000000;
+  }
+.team_members .usertype {
+	width: 24.4rem;
+	height: 6.7rem;
+	position: absolute;
+	left: 18rem;
+	top: 5rem;
+	z-index: 1;
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1.1075;
+	color: #050505;
+	word-spacing: 0rem;
+	font-family: Helvetica;
+	white-space: nowrap;
+  } 
+  .team_members .tag_coordinator{
+    position: relative;
+    width: 45%;
+	height: 5%;
+    font-size: 30px;
+    left: 5%;
+    top: 25%;
+  }
+  .team_members .tag_coordinator_details_name{
+    position: relative;
+    width: 45%;
+	height: 5%;
+    font-size: 20px;
+    left: 5%;
+    top: 30%;
+  }
+  .team_members .tag_coordinator_details_id{
+    position: relative;
+    width: 45%;
+	height: 5%;
+    font-size: 20px;
+    left: 5%;
+    top: 30%;
+  }
+  .team_members .line_coo{
+    position: relative;
+    width: 60rem;
+	height: 0.2rem;
+    left: 15%;
+    top: 27%;
+    background-color: #000000;
+  }
+  .team_members .tag_guide{
+    position: relative;
+    width: 45%;
+	height: 5%;
+    font-size: 30px;
+    left: 50%;
+    top: 9%;
+  }
+  .team_members .tag_guide_details_name{
+    position: relative;
+    width: 45%;
+	height: 5%;
+    font-size: 20px;
+    left: 50%;
+    top: 15%;
+  }
+  .team_members .tag_guide_details_id{
+    position: relative;
+    width: 45%;
+	height: 5%;
+    font-size: 20px;
+    left: 50%;
+    top: 15%;
+  }
+  .team_members .line_guide{
+    position: relative;
+    width: 60rem;
+	height: 0.25rem;
+    left: 60%;
+    top: 11.5%;
+    background-color: #000000;
+  }
+  .team_members .tag_mem{
+    position: relative;
+    width: 45%;
+	height: 5%;
+    font-size: 30px;
+    left: 27.5%;
+    top: 20%;
+  }
+  .team_members .line_mem{
+    position: relative;
+    width: 168rem;
+	height: 0.3rem;
+    left: 14.9%;
+    top: 22%;
+    background-color: #000000;
+  }
+  .team_members .pro_data{
+    position: relative;
+    width: 45%;
+	height: 5%;
+    font-size: 20px;
+    left: 27.5%;
+    top: 27%;
+  }
+  .team_members .goto_mem{
+	position: absolute;
+	
+	left: 120rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 700;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #00000050;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+.team_members .goto_cal{
+	position: absolute;
+
+	left: 145rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #000000;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+
+.team_members .goto_doc{
+	position: absolute;
+	
+	left: 160rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #000000;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+.team_members .goto_mark{
+	position: absolute;
+	
+	left: 179rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #000000;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+
+.team_members .goto_ann{
+	position: absolute;
+	
+	left: 190rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #000000;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+  .team_members .bgrect {
+	width: 100vw;
+	height: 15rem;
+    z-index: 1;
+    position: absolute;
+	top: 0rem;
+	background-color: #9aaafffc;
+}

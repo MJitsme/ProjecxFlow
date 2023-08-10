@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  ul,
+  li {
+	list-style: none;
+  }
+  input {
+	border: none;
+  }
+  body {
+	background-color: #ffffff!important;
+  }
+  .projectsearch_s {
+	width: 100%;
+	height: 100vh;
+  }
+  .search_rect_s {
+	width: 150rem;
+	height: 50px;
+	background-color: #DFDFDF;
+	border-radius: 15px;
+	color: black;
+	margin: 10rem auto;
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+  }
+  .searchimg_s {
+	width: 5rem;
+	height: 5rem;
+	opacity: 50%;
+	object-fit: cover;
+	background-color: #ffffff00;
+	background-image: url("../assets/glass.png");
+	background-size: cover;
+	background-position: center;
+  }
+  .title_s {
+	flex: auto;
+	font-size: 3rem;
+	font-family: "Helvetica";
+	font-weight: 500;
+	color: #292929;
+  }

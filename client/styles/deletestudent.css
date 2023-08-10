@@ -1,0 +1,109 @@
+html {
+	font-size:40%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+   max-width: 100%;
+   max-height: 100%;
+   height: auto;
+}
+.admin_studentlist {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  color: black;
+}
+.admin_studentlist .logo {
+	width: 6rem;  
+	height: 4rem;
+	position: absolute;
+	left: 5rem;
+	top: 0.8rem;
+	z-index: 1;
+	scale: 60%;
+	background-size: 100% 120%;
+	background-position: 0rem;
+	background-image: url('../assets/logo.png');
+	object-fit: cover;
+	vertical-align: top;
+  }
+.admin_studentlist .usertype {
+	width: 24.4rem;
+	height: 6.7rem;
+	position: absolute;
+	left: 20rem;
+	top: 5rem;
+	z-index: 1;
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1.1075;
+	color: #050505;
+	word-spacing: 0rem;
+	font-family: Helvetica;
+	white-space: nowrap;
+  }
+
+.admin_studentlist .line {
+	width: 0.2rem;
+	height: 5rem;
+	position: absolute;
+	z-index: 1;
+	left: 18rem;
+	top: 4.5rem;
+	opacity: 45%;
+	background-color: #000000;
+  }
+
+  .admin_studentlist .deletestudent {
+	position:absolute  ;
+	width: 15%;
+	height: 9%;
+	left: 140rem;
+	top: 43%;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.2vw;
+	line-height: 2.3;
+	color: #ffffff;
+	background-color: #1d1d1d;
+	border-radius: 10px;
+  }
+  .admin_studentlist .emailid{
+	align-content: center;
+    position:absolute;
+	width: 30%;
+	height: 9%;
+	left: 25%;
+	top: 43%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+.admin_studentlist .bgrect {
+	width: 100vw;
+	height: 15rem;
+    z-index: 0;
+	position: relative;
+	top: 0rem;
+	background-color: rgba(154, 170, 255, 0.9900000095);
+}

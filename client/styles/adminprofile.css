@@ -1,0 +1,174 @@
+html {
+	font-size: 40%;
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+  }
+  
+  .admin_profile {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+  }
+  .admin_profile .title{
+	position: absolute;
+	width: 45%;
+	height: 5%;
+	align-content: center;
+	left: calc(55% - 30%);
+	top: 20%;
+    z-index: 1;
+	
+	font-size: 6rem;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	color: #000000;
+  }
+  .admin_profile .mini{
+	width: 40rem;
+	height : 20rem;
+	position: absolute;
+	left : 15%;
+	top :45%;
+	color: #000000;
+	line-height: 18rem;
+	border-radius: 10px;
+	background-color: #9babff;
+	font-size: 4.2rem;
+  }
+  .admin_profile .main{
+	width: 40rem;
+	height : 20rem;
+	position: absolute;
+	left :39%;
+	top :45%;
+	line-height: 18rem;
+	border-radius: 10px;
+	color: #000000;
+	background-color: #99a9fd;
+	font-size: 4.2rem;
+  }
+  .admin_profile .student{
+	width: 40rem;
+	height : 20rem;
+	position: absolute;
+	left :65%;
+	top :45%;
+	line-height: 18rem;
+	border-radius: 10px;
+	color: #000000;
+	background-color: #99a9fd;
+	font-size: 4.2rem;
+  }
+  .admin_profile .guide{
+	width: 40rem;
+	height : 20rem;
+	position: absolute;
+	left :15%;
+	top : 70%;
+	line-height: 18rem;
+	border-radius: 10px;
+	color: #000000;
+	background-color: #99a9fd;
+	font-size: 4.2rem;
+  }
+  .admin_profile .coordinator{
+	width: 40rem;
+	height : 20rem;
+	position: absolute;
+	left :39%;
+	top : 70%;
+	line-height: 18rem;
+	border-radius: 10px;
+	color: #000000;
+	background-color: #99a9fd;
+	font-size: 4.2rem;
+  }
+  .admin_profile .move{
+	width: 40rem;
+	height : 20rem;
+	position: absolute;
+	left :65%;
+	top : 70%;
+	line-height: 18rem;
+	border-radius: 10px;
+	color: #000000;
+	background-color: #99a9fd;
+	font-size: 4.2rem;
+  }
+  .admin_profile .logo {
+	width: 6rem;  
+	height: 4rem;
+	position: absolute;
+	left: 5rem;
+	top: 0.5rem;
+	z-index: 1;
+	scale: 60%;
+	background-size: 100% 120%;
+	background-position: 0rem;
+	background-image: url('../assets/logo.png');
+	object-fit: cover;
+	vertical-align: top;
+  }
+  .admin_profile .usertype {
+	width: 24.2rem;
+	height: 6.7rem;
+	position: absolute;
+	left: 18rem;
+	top: 5rem;
+	z-index: 1;
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1.1075;
+	color: #050505;
+	word-spacing: 0rem;
+	font-family: Arial, Helvetica, sans-serif;
+	white-space: nowrap;
+  }
+  .admin_profile .line {
+	width: 0.2rem;
+	height: 5rem;
+	position: absolute;
+	z-index: 1;
+	left: 18rem;
+	top: 4.2rem;
+	opacity: 45%;
+	background-color: #000000;
+  }
+  .admin_profile .logout{
+	position: relative;
+	width: 8%;
+	height: 6%;
+	left: 215rem;
+	top: 3.5rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.2vw;
+	line-height: 2.3;
+	color: #ffffff;
+	background-color: #1d1d1d;
+	border-radius: 10px;
+
+}
+  .admin_profile .bgrect {
+	width: 100vw;
+	height: 15rem;
+	z-index: 0;
+	position: absolute;
+	top: 0rem;
+	background-color: #9aaafffc;
+}

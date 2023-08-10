@@ -1,0 +1,184 @@
+ html {
+	font-size:40%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+   max-width: 100%;
+   max-height: 100%;
+   height: auto;
+}
+.login_page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.login_page .rectangle {
+  width: 200rem;
+  height: 100%;
+  position: absolute;
+  left: 100rem;
+  top: 0;
+  background-color: rgba(154, 170, 255, 0.9900000095);
+}
+.login_page .projecx_flow {
+  width: 24.4rem;
+  height: 6.7rem;
+  position: absolute;
+  left: 14%;
+  top: 74.5%;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1.1075;
+  color: #050505;
+  font-family: Helvetica;
+  white-space: nowrap;
+}
+.login_page .login_key {
+  width: 16rem;
+  height: 6rem;
+  position: absolute;
+  left: 70%;
+  top: 65rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0px 30px;
+  color: #ffffff;
+  background-color: #191919;
+  border-radius: 1.2rem;
+  font-family: 'Helvetica';
+  white-space: nowrap;
+}
+.login_page .grup_pic {
+  width: 66rem;
+  height: 49rem;
+  position: relative;
+  left: 14.5rem;
+  top: 18rem;
+  background-size: 100% 136%;
+  background-position: 0 -14rem;
+  background-image: url('../assets/grouppic.png');
+  border-radius: 10rem;
+}
+.login_page .logo {
+  width: 8rem;  
+  height: 6rem;
+  position: absolute;
+  left: 8%;
+  top: 80rem;
+  scale: 70%;
+  background-size: 100% 120%;
+  background-position: 0 -20rem;
+  background-image: url('../assets/logo.png');
+  object-fit: cover;
+  vertical-align: top;
+  border-image: none;
+}
+
+.login_page .rectuser {
+  width: 43.8rem;
+  height: 6rem;
+  position: absolute;
+  left: 153rem;
+  top: 40rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+}
+.login_page .user_name {
+  background-color: #ffffff;
+  width: 38rem;
+  height: 3.6rem;
+  position: absolute;
+  left: 155.5rem;
+  top: 41rem;
+  font-size: 2.4rem;
+  font-weight: 450;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Helvetica, 'Source Sans Pro';
+}
+.login_page .rectpass {
+  width: 43.8rem;
+  height: 6rem;
+  position: absolute;
+  left: 153rem;
+  top: 50rem;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+}
+.login_page .pass_word {
+  width: 38rem;
+  background-color: #ffffff;
+  height: 3.6rem;
+  position: absolute;
+  left: 155.5rem;
+  top: 51rem;
+  font-size: 2.4rem;
+  font-weight: 450;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Helvetica, '';
+  white-space: nowrap;
+}
+.login_page .forgot_pass {
+  width: 19.9rem;
+  height: 3.6rem;
+  cursor: pointer;
+  position: absolute;
+  left: 155rem;
+  top: 85.5rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Helvetica, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login_page .create_acc {
+  width: 23.1rem;
+  height: 3.6rem;
+  cursor: pointer;
+  position: absolute;
+  left: 179rem;
+  top: 85.5rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Helvetica, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login_page .welcome {
+  width: 36.4rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 150rem;
+  top: 20rem;
+  font-size: 7rem;
+  font-weight: 550;
+  line-height: 0.8541666667;
+  color: #000000;
+  font-family: Helvetica, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.login_page .line {
+  width: 0.2rem;
+  height: 4.5044rem;
+  position: absolute;
+  left: 177rem;
+  top: 85rem;
+  background-color: #000000;
+}

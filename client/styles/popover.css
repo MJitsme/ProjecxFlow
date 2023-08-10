@@ -1,0 +1,96 @@
+.popover {
+	background-color: white;
+	color: black;
+	height: 420px;
+	width: 500px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 15px;
+	overflow: hidden;
+	display: grid;
+	justify-items: center;
+	align-content: center;
+	gap: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.525);
+}
+.input {
+	width: 270px;
+	height: 35px;
+	border-bottom: 2px solid black;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 101%; /* 18.18px */
+}
+.input::placeholder {
+	opacity: 0.5;
+}
+.themeListed {
+	color: var(--bg-accent);
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	gap: 5px;
+}
+.circle {
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	background-color: var(--bg-accent);
+}
+.list li {
+	list-style: none;
+	padding: 0px 5px;
+	cursor: pointer;
+	margin-left: 15px;
+	user-select: none;
+}
+.selected::before {
+	position: absolute;
+	content: '✔';
+	transform: translateX(-20px);
+	color: var(--bg-accent);
+	font-size: 1.2rem;
+}
+.button {
+	width: 270px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 101%; /* 18.18px */
+	cursor: pointer;
+	border: 2px solid transparent;
+	transition: all 0.3s ease-in-out;
+}
+.button:hover {
+	opacity: 0.8;
+}
+.showP {
+	display: grid;
+	animation: showAnimation 0.3s ease-in-out;
+}
+.hideP {
+	display: none;
+}
+@media (max-width: 768px) {
+	.popover {
+		width: 360px;
+		height: 380px;
+	}
+}
+@keyframes showAnimation {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}

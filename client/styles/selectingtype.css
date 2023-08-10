@@ -1,0 +1,126 @@
+html {
+	font-size: 40%;
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+  }
+  
+  .select {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+  }
+.select .title {
+	position: relative;
+	width: 34%;
+	align-content: center;
+	height: 6%;
+	left: 70rem;
+	top: 22rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	font-size: 2vw;
+	line-height: 2.3;
+	color: #312771;
+	border-radius: 10px;
+}
+.select .subtitle {
+	position: relative;
+	width: 34%;
+	align-content: center;
+	height: 6%;
+	left: 70rem;
+	top: 45rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	font-size: 1.5vw;
+	line-height: 2.3;
+	color: #181818;
+	border-radius: 10px;
+}
+.select .loginkey {
+	position: relative;
+	width: 6%;
+	height: 6%;
+	left: 220rem;
+	top: -30rem;
+	z-index: 1;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.5vw;
+	line-height: 1.8;
+	border-radius: 10px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.select .coordinator {
+	position: relative;
+	width: 15%;
+	height: 6%;
+	left: 33rem;
+	top: 59.5rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	font-size: 1.2vw;
+	line-height: 2.3;
+	color: #ffffff;
+	background-color: #1d1d1d;
+	border-radius: 10px;
+
+}
+.select .guide {
+	position: relative;
+	width: 15%;
+	height: 6%;
+	left: 95rem;
+	top: 53rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	font-size: 1.2vw;
+	line-height: 2.3;
+	color: #ffffff;
+	background-color: #1d1d1d;
+	border-radius: 10px;
+
+}
+.select .student {
+	position: relative;
+	width: 15%;
+	height: 6%;
+	left: 155rem;
+	top: 46.5rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	font-size: 1.2vw;
+	line-height: 2.3;
+	color: #ffffff;
+	background-color: #1d1d1d;
+	border-radius: 10px;
+
+}
+.select .bgrect {
+	width: 100vw;
+	height: 15rem;
+	position: absolute;
+	top: 0rem;
+	background-color: rgba(154, 170, 255, 0.9900000095);
+}

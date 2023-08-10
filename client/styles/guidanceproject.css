@@ -1,0 +1,73 @@
+html {
+    font-size:40%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+input {
+    border: none;
+}
+body {
+   max-width: 100%;
+   max-height: 100%;
+   height: auto;
+}
+.guidance_coo {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.guidance_coo .logo {
+	width: 6rem;  
+	height: 4rem;
+	position: absolute;
+	left: 5rem;
+	top: 0.8rem;
+	z-index: 1;
+	scale: 60%;
+	background-size: 100% 120%;
+	background-position: 0rem;
+	background-image: url('../assets/logo.png');
+	object-fit: cover;
+	vertical-align: top;
+  }
+  .guidance_coo .usertype {
+	width: 24.4rem;
+	height: 6.7rem;
+	position: absolute;
+	left: 22rem;
+	top: 5rem;
+	z-index: 1;
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1.1075;
+	color: #050505;
+	word-spacing: 0rem;
+	font-family: Helvetica;
+	white-space: nowrap;
+  }
+  .guidance_coo .line {
+	width: 0.2rem;
+	height: 5rem;
+	position: absolute;
+	z-index: 1;
+	left: 18rem;
+	top: 4.5rem;
+	opacity: 45%;
+	background-color: #000000;
+  }
+
+  .guidance_coo .bg_rect {
+width: 100vw;
+height: 15rem;
+position: relative;
+top: 0rem;
+z-index: 0;
+background-color: rgba(154, 170, 255, 0.9900000095);
+}

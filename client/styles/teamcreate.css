@@ -1,0 +1,242 @@
+html {
+	font-size: 40%;
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+  }
+  
+  .team {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+  }
+  .team .dash{
+    position: absolute;
+	width: 45%;
+	height: 5%;
+	align-content: center;
+	left: calc(55% - 30%);
+	top: 3.5%;
+    z-index: 1;
+	font-size: 6rem;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	color: #292929;
+  }
+  .team .proname{
+	position: absolute;
+	align-content: center;
+	width: 63%;
+	height: 7%;
+	left: 5%;
+	top: 20%;
+	z-index: 1;
+	padding-left: 20px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .team .protype{
+	position: absolute;
+	align-content: center;
+	text-align: center;
+	width: 11%;
+	height: 7%;
+	left: 72%;
+	top: 20%;
+	z-index: 1;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .team .year{
+	position: absolute;
+	align-content: center;
+	text-align: center;
+	width: 9%;
+	height: 7%;
+	left: 85%;
+	top: 20%;
+	z-index: 1;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .team .teamadd {
+    position: absolute;
+	width: 45%;
+	height: 8%;
+	align-content: center;
+	left: calc(55% - 30%);
+	top: 32%;
+    z-index: 1;
+	font-size: 6rem;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	color: #292929;
+  }
+  .team .teammate_one{
+	position: absolute;
+	align-content: center;
+	padding: 20px;
+	width: 40%;
+	height: 2%;
+	left: 5%;
+	top: 42%;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .team .teammate_two{
+	position: absolute;
+	align-content: center;
+	padding: 20px;
+	width: 40%;
+	height: 2%;
+	left: 51.5%;
+	top: 42%;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .team .teammate_three{
+	position: absolute;
+	align-content: center;
+	padding: 20px;
+	width: 40%;
+	height: 2%;
+	left: 5%;
+	top: 52%;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .team .teammate_four{
+	position: absolute;
+	align-content: center;
+	padding: 20px;
+	width: 40%;
+	height: 2%;
+	left: 51.5%;
+	top: 52%;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .team .facultyadd {
+    position: absolute;
+	width: 45%;
+	height: 50%;
+	align-content: center;
+	left: calc(55% - 30%);
+	top: 65%;
+    z-index: 1;
+	font-size: 6rem;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	color: #292929;
+  }
+  .team .coordinator01{
+	position: absolute;
+	align-content: center;
+	padding: 20px;
+	width: 25%;
+	height: 2%;
+	left: 15%;
+	top: 75%;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+  }
+  .team .guide{
+	position: absolute;
+	align-content: center;
+	padding: 20px;
+	width: 25%;
+	height: 2%;
+	left: 55%;
+	top: 75%;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 36px;
+	background-color: #E2E2E2;
+	border-radius: 10px;
+	color: #000000;
+	
+  }
+  .team .submit {
+	position: relative;
+	top: 100rem;
+	left: 0px;
+	width: 35rem;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.2vw;
+	z-index: 1;
+	line-height: 1;
+	color: #ffffff;
+	background-color: #1d1d1d;
+	border-radius: 10px;
+}
+  .team .bgrect {
+	width: 100vw;
+	height: 20rem;
+	z-index: 0;
+	position: absolute;
+	top: 0rem;
+	background-color: rgba(154, 170, 255, 0.9900000095);
+}

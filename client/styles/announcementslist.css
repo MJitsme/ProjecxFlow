@@ -1,0 +1,109 @@
+html {
+	font-size: 40%;
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+  }
+  
+  .anno_list_cls {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+  }
+
+  
+ 
+  .anno_list_cls .logo {
+	width: 6rem;  
+	height: 4rem;
+	position: absolute;
+	left: 5rem;
+	top: 0.8rem;
+	scale: 60%;
+	z-index: 1;
+	background-size: 100% 120%;
+	background-position: 0rem;
+	background-image: url('../assets/logo.png');
+	object-fit: cover;
+	vertical-align: top;
+  }
+  .anno_list_cls .usertype {
+	width: 24.4rem;
+	height: 6.7rem;
+	position: absolute;
+	left: 21rem;
+	top: 5rem;
+	z-index: 1;
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1.1075;
+	color: #050505;
+	word-spacing: 0rem;
+	font-family: Helvetica;
+	white-space: nowrap;
+  }
+  .anno_list_cls .line {
+	width: 0.2rem;
+	height: 5rem;
+	position: absolute;
+	z-index: 1;
+	left: 18rem;
+	top: 4.5rem;
+	opacity: 45%;
+	background-color: #000000;
+  }
+  .anno_list_cls .make{
+	position: absolute;
+	width: 18%;
+	height: 6%;
+	left: 190rem;
+	top: 4%;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.2vw;
+	line-height: 2.3;
+	color: #ffffff;
+	background-color: #1d1d1d;
+	border-radius: 10px;
+
+}
+.anno_list_cls .list{
+    position: relative;
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    top:15rem;
+   color: #000000;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+}
+.list .list_list{
+    font-size: 3rem;
+   
+    margin: 2.5rem;
+}
+  .anno_list_cls .bgrect {
+	width: 100vw;
+	height: 15rem;
+	z-index: 0;
+	position: absolute;
+	top: 0rem;
+	background-color: #9aaafffc;
+}
+
+
+

@@ -1,0 +1,73 @@
+html {
+	font-size: 40%;
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+  }
+  
+  .markguide {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+  }
+
+  .markguide .logo {
+	width: 6rem;  
+	height: 4rem;
+	position: absolute;
+	left: 5rem;
+	top: 0.5rem;
+	z-index: 1;
+	scale: 60%;
+	background-size: 100% 120%;
+	background-position: 0rem;
+	background-image: url('../assets/logo.png');
+	object-fit: cover;
+	vertical-align: top;
+  }
+  .markguide .usertype {
+	width: 24.4rem;
+	height: 6.7rem;
+	position: absolute;
+	left: 22rem;
+	top: 5rem;
+	z-index: 1;
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1.1075;
+	color: #050505;
+	word-spacing: 0rem;
+	font-family: 'Helvetica';
+	white-space: nowrap;
+  }
+  .markguide .line {
+	width: 0.2rem;
+	height: 5rem;
+	position: absolute;
+	z-index: 1;
+	left: 18rem;
+	top: 4.5rem;
+	opacity: 45%;
+	background-color: #000000;
+  }
+  
+  .markguide .bg_rect {
+	width: 100vw;
+	height: 15rem;
+	z-index: 0;
+	position: absolute;
+	top: 0%;
+	background-color: #9aaafffc;
+}

@@ -1,0 +1,15 @@
+/* Add this to your CSS file */
+.ticker-container {
+    overflow: hidden;
+    animation: ticker-animation 20s linear infinite;
+  }
+  
+  @keyframes ticker-animation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  

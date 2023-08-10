@@ -1,0 +1,291 @@
+html {
+	font-size:40%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+
+body {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  background-color: #fffcff;
+  font-size: 3rem;
+}
+button {
+  width: 75px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px gray;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.calendar_section{
+  display: flex;
+  
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+#header {
+  padding: 10px;
+  color: #d36c6c;
+  font-size: 3rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+#header button {
+  background-color: #92a1d1;
+}
+#container {
+ 
+ scale:70%;
+  width: 770px;
+}
+#weekdays {
+  width: 100%;
+  display: flex;
+  color: #247ba0;
+}
+#weekdays div {
+  width: 100px;
+  padding: 10px;
+}
+#calendar {
+  width: 100%;
+  margin: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.day {
+  width: 100px;
+  padding: 10px;
+  height: 100px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 5px;
+  box-shadow: 0px 0px 3px #cbd4c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day:hover {
+  background-color: #e8faed;
+}
+
+.day + #currentDay {
+  background-color: #e8f4fa;
+}
+
+.padding {
+  cursor: default !important;
+  background-color: #fffcff !important;
+  box-shadow: none !important;
+}
+
+#backButton,
+#nextButton {
+  font-size: 3rem;
+  margin: 0 20px;
+  text-align: center;
+  width: auto;
+}
+.week1,
+.week2,
+.week3,
+.week4,
+.week5,
+.week6 {
+  display: flex;
+  color: black;
+}
+.hideDate {
+  opacity: 0;
+}
+.events {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: black;
+
+  font-size: 2.5rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.event_calendar{
+  height: 100%;
+  width: 450px;
+  color: black;
+  font-size: 3rem;
+  text-align: left;
+}
+.event_name{
+  opacity: 0.75;
+  font-size: 2.75rem;
+  margin-left: 1rem;
+  text-align: end;
+}
+
+
+
+
+  
+  .calendar_section  .goto_mem{
+	position: absolute;
+	
+	left: 120rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 700;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #000000;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+.calendar_section .goto_cal{
+	position: absolute;
+
+	left: 145rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #00000050;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+
+.calendar_section .goto_doc{
+	position: absolute;
+	
+	left: 160rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #000000;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+.calendar_section .goto_mark{
+	position: absolute;
+	
+	left: 179rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #000000;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+.calendar_section  .logout{
+	position: absolute;
+	width: 8%;
+	height: 6%;
+	left: 215rem;
+	top: 3.8rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.2vw;
+	line-height: 2.3;
+	color: #ffffff;
+	background-color: #1d1d1d;
+	border-radius: 10px;
+
+}
+.calendar_section .goto_ann{
+	position: absolute;
+	
+	left: 190rem;
+	top: 4rem;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-weight: 600;
+	z-index: 1;
+	font-size: 1.1vw;
+	line-height: 2.3;
+	color: #000000;
+	background-color: #1d1d1d00;
+	border-radius: 10px;
+
+}
+.calendar_section .bgrect {
+	width: 100vw;
+	height: 15rem;
+  z-index: 0;
+  left: 0rem;
+  top:0rem;
+  position: absolute;
+	background-color: #9aaafffc;
+}
+.calendar_section .usertype {
+	width: 24.4rem;
+	height: 6.7rem;
+	position: absolute;
+	left: 14rem;
+	top: 5rem;
+	z-index: 1;
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 1.1075;
+	color: #050505;
+	word-spacing: 0rem;
+	font-family: Helvetica;
+	white-space: nowrap;
+  } 
+  .calendar_section .line_coo{
+    position: relative;
+    width: 60rem;
+	height: 0.2rem;
+    left: 15%;
+    top: 27%;
+    background-color: #000000;
+  }
+  .calendar_section .logo {
+	width: 6rem;  
+	height: 4rem;
+	position: absolute; 
+	left: 3rem;
+	top: 0.8rem;
+	z-index: 1;
+	scale: 60%;
+	scale: 50%;
+	background-size: 100% 120%;
+	background-position: 0rem;
+	background-image: url('../assets/logo.png');
+	object-fit: cover;
+	vertical-align: top;
+  }
